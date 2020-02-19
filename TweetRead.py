@@ -22,8 +22,8 @@ import socket
 
 consumer_key = 'input your consumer_key'
 consumer_secret = 'input your consumer_secret'
-access_token = 'access_token'
-access_secret = 'access_secret'
+access_token = 'input your access_token'
+access_secret = 'input your access_secret'
 
 
 # In[4]:
