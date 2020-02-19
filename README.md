@@ -51,7 +51,13 @@ ssc.start()
 ```
 Now, you are able to see the tweets keep showing on your terminal. Keep runing the following code
 You are going to see the figure like this
+
+***
+
 ![alt text](https://github.com/rhettxio/Apache-Spark-Streaming-of-twitter-data/blob/master/top10ranktag.png)
+
+***
+
 It will keep updating in every 10 seconds period (feel free to define any other period).
 It will stop by runing the last line of code
 ```
