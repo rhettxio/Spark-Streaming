@@ -1,4 +1,4 @@
-# Apache Spark Streaming of Twitter data
+# Apache Spark Streaming of Twitter data - Fetching hashtags for Coronavirus
 
 ## Objective
 Learning how to use tweepy create a connection with twitter and extract the live streaming data from twitter API. Using Spark streaming in PySpark handle the streaming data received and convert to dataframe save as SQL and live display the most popular hashtag topics.
