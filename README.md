@@ -11,7 +11,7 @@ Learning how to use tweepy create a connection with twitter and extract the live
 4. matplotlib
 5. seaborn
 6. [A Twitter Developer Account](https://developer.twitter.com/)
-7. Runing on Ubuntu.
+7. Runing on Ubuntu
 
 ## Step 1
 Using your Twitter Developer Account create a new App and save/memorizes your access code: 
@@ -21,7 +21,13 @@ Using your Twitter Developer Account create a new App and save/memorizes your ac
 4. access secret.
 
 ## Step 2
-Write a file named Tweet_Fetch.py file that will connect to Twitter for streaming data and filters the data by tweets keyword.
+Write a file named Tweet_Fetch.py file that will connect to Twitter for streaming data and filters the data by tweets keyword. Notice that please enter your own access code saved in the step 1.
+```
+consumer_key = 'input your consumer_key'
+consumer_secret = 'input your consumer_secret'
+access_token = 'input your access_token'
+access_secret = 'input your access_secret'
+```
 
 ## Step 3
 Build a pipeline in Spark retrieve the streaming data from Tweet_Fetch.py, process the data by extracing the hashtag of the tweets, ranking the top 10 topics and converting the data into dataframe and display it every 10 seconds.
