@@ -66,7 +66,7 @@ ssc.stop()
 
 ## Built With
 
-* [Ubuntu](http://www.dropwizard.io/1.0.2/docs/)
+* [Ubuntu](https://ubuntu.com/)
 * [Apache Spark](https://maven.apache.org/)
 
 ## Authors
